@@ -118,17 +118,7 @@
         }
         .digital{
             font-size: 0.9rem;
-        }
-         .square{
-        background-color: #f2f2f2;
-
-        position: absolute;
-        bottom: -100px;
-
-        animation-name: myani;
-        animation-duration: 10s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
+        }     
     }
     }
     @keyframes myani{
@@ -147,8 +137,8 @@
         }
         100%{
             bottom: 100%;
-            transform: rotate(180deg);
-            opacity: 0;
+            -webkit-transform: rotate(180deg);
+            -webkit-opacity: 0;
         }
     }
     </style>
